@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+// body{
+//     background-color: #731ac7 !important;
+// }
+
+
+// body{
+//     background: linear-gradient(to left, #254B62, #77ABB7 ) !important;
+// }
+
+// .bg-custom{99DBF5
+//     background: linear-gradient(to left, #476D7C, #77ABB7) !important;AEE2FF
+
+// }
+
+
+body{
+    background: linear-gradient(45deg, #9AC5F4, #99DBF5 ) !important;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif !important;
+    
+}
+
+.ng-select.ng-select-single .ng-select-container {
+    height: 55px !important;
+}
+
+.ng-select .ng-select-container {
+    color: #ffffff !important;
+    border-radius: 15px !important;
+    font-weight: bold !important;
+    border: 3px solid #ffffff !important;
+    background-color: #5ed1f1;
+}
+
+.ng-select .ng-clear-wrapper {
+    color: #fbfeff;
+    font-weight: bold
+}
+
+.ng-select .ng-arrow-wrapper .ng-arrow {
+    border-color: #ffffff transparent transparent;
+    border-width: 7px 5px 2.5px
+}
+
+.ng-select.ng-select-opened>.ng-select-container .ng-arrow {
+    top: -2px;
+    border-color: transparent transparent #5ed1f1;
+    
+}
+
+.ng-select.ng-select-opened>.ng-select-container{
+    background-color: #a5e7fa;
+}
+
+
+
+.ng-select .ng-select-container .ng-value-container .ng-placeholder {
+    color: #454545;
+}
